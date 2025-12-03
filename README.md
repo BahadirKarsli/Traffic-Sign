@@ -29,7 +29,8 @@ Bu proje, Otonom Araçlar ve Gelişmiş Sürücü Destek Sistemleri (ADAS) için
 3. Modeli eğitin veya test edin:
    * traffic_sign.ipynb dosyasını Jupyter Notebook ile açarak hücreleri çalıştırın.
 
-📊 Sonuçlar
+## 📊 Sonuçlar
+
 Modelimiz test veri seti üzerinde %95.95 doğruluk oranına ulaşmıştır.
 
 * Precision: 0.96
