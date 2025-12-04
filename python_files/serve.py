@@ -88,7 +88,7 @@ interface = gr.Interface(
     title="🚦 Trafik İşareti Tanıma Sistemi",
     description="Bir trafik levhası resmi yükleyin, Yapay Zeka (CNN) modelimiz onun ne olduğunu tahmin etsin.",
     examples=[
-        # Buraya test etmek için örnek resim yolları yazabilirsin varsa.
+        # Buraya test etmek için örnek resim yolları yükleyip yazabilirsiniz veya aşağıda yazılan resimlere şuradan ulaşabilirsiniz: https://github.com/BahadirKarsli/Traffic-Sign/tree/main/test_images
         ["test_images/30sign.jpg"],
         ["test_images/stopsign.jpg"],
         ["test_images/dlcsign.png"]
@@ -99,4 +99,5 @@ interface = gr.Interface(
 if __name__ == "__main__":
     print("Arayüz başlatılıyor... Linke tıklayarak tarayıcıda açabilirsiniz.")
     interface.launch(share=False)
+
 
