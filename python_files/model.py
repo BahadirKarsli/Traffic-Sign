@@ -1,3 +1,7 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 class TrafficSignNet(nn.Module):
     def __init__(self, num_classes=43): # GTSRB'de 43 sınıf var
         super(TrafficSignNet, self).__init__()
@@ -34,5 +38,3 @@ class TrafficSignNet(nn.Module):
         out = self.fc2(out)
         out = self.fc3(out)
         return out
-
-model = TrafficSignNet().to(device)
