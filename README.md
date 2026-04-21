@@ -34,24 +34,24 @@ The current directory structure of this repository is as follows:
 ```
 
 ## 🛠️ Technologies Used
-Programming Language: Python
+- Programming Language: Python
 
-Deep Learning Framework: PyTorch (CNN Architecture)
+- Deep Learning Framework: PyTorch (CNN Architecture)
 
-Image Processing: OpenCV, PIL (Python Imaging Library)
+- Image Processing: OpenCV, PIL (Python Imaging Library)
 
-Data Analysis & Visualization: NumPy, Pandas, Matplotlib, Seaborn
+- Data Analysis & Visualization: NumPy, Pandas, Matplotlib, Seaborn
 
 ## 🚀 Installation
 Follow the steps below to run the project on your local machine:
 
-Clone the Repository:
+1. Clone the Repository:
 
 ```
 git clone [https://github.com/BahadirKarsli/Traffic-Sign.git](https://github.com/BahadirKarsli/Traffic-Sign.git)
 cd Traffic-Sign
 ```
-Install Required Dependencies:
+2. Install Required Dependencies:
 It is recommended to use a virtual environment. Install the necessary packages via:
 
 ```
